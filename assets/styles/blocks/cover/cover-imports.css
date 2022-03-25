@@ -1,0 +1,5 @@
+@import "cover.css";
+@import "__title/cover__title.css";
+@import "__subtitle/cover__subtitle.css";
+@import "__overlay/cover__overlay.css";
+@import "__background/cover__background.css";
