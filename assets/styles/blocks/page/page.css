@@ -31,5 +31,6 @@
 .page {
     min-width: 320px;
     font-family: 'Inter', 'Arial', serif;
+    color: var(--white);
     background-color: var(--dark);
 }

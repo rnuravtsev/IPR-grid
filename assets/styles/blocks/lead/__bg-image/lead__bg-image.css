@@ -1,0 +1,20 @@
+.lead__bg-image {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.lead__bg-image:before {
+    content: '';
+    position: absolute;
+    top: -25%;
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+    display: block;
+    background-image: url("../../../../images/lead-map.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 10;
+}

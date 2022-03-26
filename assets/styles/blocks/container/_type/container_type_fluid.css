@@ -1,4 +1,5 @@
 .container_type_fluid {
+    padding: 0;
     max-width: initial;
     width: 100%;
 }

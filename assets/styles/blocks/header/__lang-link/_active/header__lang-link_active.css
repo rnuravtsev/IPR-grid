@@ -1,0 +1,14 @@
+.header__lang-link_active {
+    position: relative;
+}
+
+.header__lang-link_active:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--white);
+}
