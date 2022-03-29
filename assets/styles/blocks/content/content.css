@@ -1,5 +1,6 @@
 @import "__lead/content__lead.css";
 @import "__intro/content__intro.css";
+@import "__places/content__places.css";
 
 .content {
     display: grid;

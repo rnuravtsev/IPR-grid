@@ -1,7 +1,6 @@
 @import "normalize.css";
 @import "common/common.css";
 @import "blocks/container/container.css";
-@import "blocks/container-fluid/container-fluid.css";
 @import "blocks/content/content.css";
 @import "blocks/content-holder/content-holder.css";
 @import "blocks/list/list.css";
@@ -13,6 +12,7 @@
 @import "blocks/footer/footer.css";
 @import "blocks/page/page.css";
 @import "blocks/photo-grid/photo-grid.css";
+@import "blocks/places/places.css";
 @import "blocks/place/place.css";
 @import "blocks/website/website.css";
 

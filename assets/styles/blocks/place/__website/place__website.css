@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+    .place__website {
+        padding-right: 0;
+        padding-left: 0;
+        align-self: end;
+    }
+}
