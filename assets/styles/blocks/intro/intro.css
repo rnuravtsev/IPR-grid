@@ -1,0 +1,11 @@
+@import "__title/intro__title.css";
+@import "__text/intro__text.css";
+@import "__peculiarities/intro__peculiarities.css";
+@import "__flex-wrapper/intro__flex-wrapper.css";
+@import "__term/intro__term.css";
+@import "__definition/intro__definition.css";
+@import "__inner/intro__inner.css";
+
+.intro {
+    padding-top: 64px;
+}

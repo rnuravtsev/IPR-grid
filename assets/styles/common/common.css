@@ -6,4 +6,5 @@
 
 * {
     box-sizing: border-box;
+    outline: 2px dashed red;
 }

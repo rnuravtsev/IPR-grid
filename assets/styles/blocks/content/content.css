@@ -1,0 +1,7 @@
+@import "__lead/content__lead.css";
+@import "__intro/content__intro.css";
+
+.content {
+    display: grid;
+    justify-items: center;
+}
