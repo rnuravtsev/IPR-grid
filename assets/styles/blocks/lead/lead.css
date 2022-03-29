@@ -7,3 +7,21 @@
 .lead {
     padding-top: 48px;
 }
+
+@media (min-width: 768px) {
+    .lead {
+        padding-top: 52px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lead {
+        padding-top: 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .lead {
+        padding-top: 56px;
+    }
+}
