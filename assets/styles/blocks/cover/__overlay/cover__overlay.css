@@ -11,9 +11,4 @@
     bottom: 0;
     background-color: var(--dark);
     opacity: 0.3;
-    transition: opacity .25s ease;
-}
-
-.cover__overlay:hover:before {
-    opacity: 0.8;
 }

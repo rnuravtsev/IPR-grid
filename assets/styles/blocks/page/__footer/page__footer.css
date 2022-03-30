@@ -1,0 +1,9 @@
+.page__footer {
+    max-width: 186px;
+}
+
+@media (min-width: 768px) {
+    .page__footer {
+        max-width: initial;
+    }
+}

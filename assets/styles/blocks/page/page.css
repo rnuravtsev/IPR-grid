@@ -1,36 +1,8 @@
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src:
-        url("../../../fonts/Inter-Regular.woff2");
-        url("../../../fonts/Inter-Regular.ttf");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: bold;
-    font-display: swap;
-    src:
-        url("../../../fonts/Inter-Bold.woff2");
-        url("../../../fonts/Inter-Bold.ttf");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src:
-        url("../../../fonts/Inter-ExtraBold.woff2");
-        url("../../../fonts/Inter-ExtraBold.ttf");
-}
+@import "__cover/page__cover.css";
+@import "__footer/page__footer.css";
 
 .page {
     min-width: 320px;
-    font-family: 'Inter', 'Arial', serif;
     color: var(--white);
     background-color: var(--dark);
 }

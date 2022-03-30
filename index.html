@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="assets/styles/index.css">
     <title>Путешествия по России</title>
 </head>
-<body class="page">
+<body class="page font">
 <header class="header container">
     <img class="header__logo" src="assets/images/header-logo.svg" alt="Логотип 'Россия'">
-    <ul class="header__list list">
+    <ul class="header__lang-menu">
         <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
         <li><a class="header__lang-link" href="#">En</a></li>
     </ul>
@@ -204,7 +204,7 @@
                 <h2 class="place__title container">Куршская коса</h2>
                 <div class="place__website container">
                     <h3 class="place__url-heading">URL</h3>
-                    <a class="place__link" href="http://park-kosa.ru" target="_blank" rel="noopener">park-kosa.ru</a>
+                    <a class="place__link hover-opacity" href="http://park-kosa.ru" target="_blank" rel="noopener">park-kosa.ru</a>
                 </div>
                 <picture>
                     <source type="image/webp"
@@ -233,7 +233,7 @@
                 <h2 class="place__title container">Кольский</h2>
                 <div class="place__website container">
                     <h3 class="place__url-heading">URL</h3>
-                    <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                    <a class="place__link hover-opacity" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                        target="_blank" rel="noopener">National Geographic</a>
                 </div>
                 <picture>
@@ -259,7 +259,7 @@
                 <h2 class="place__title container">Алтай</h2>
                 <div class="place__website container">
                     <h3 class="place__url-heading">URL</h3>
-                    <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                    <a class="place__link hover-opacity" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                        target="_blank" rel="noopener">Facebook</a>
                 </div>
                 <picture>
@@ -284,7 +284,7 @@
                 <h2 class="place__title container">Зимний Байкал</h2>
                 <div class="place__website container">
                     <h3 class="place__url-heading">URL</h3>
-                    <a class="place__link" href="https://vk.com/baikalmile" target="_blank" rel="noopener">https://vk.com/baikalmile</a>
+                    <a class="place__link hover-opacity" href="https://vk.com/baikalmile" target="_blank" rel="noopener">https://vk.com/baikalmile</a>
                 </div>
 
                 <picture>
@@ -309,7 +309,7 @@
                 <h2 class="place__title container">Карелия</h2>
                 <div class="place__website container">
                     <h3 class="place__url-heading">URL</h3>
-                    <a class="place__link" href="http://vodlozero.ru" target="_blank" rel="noopener">http://vodlozero.ru/</a>
+                    <a class="place__link hover-opacity" href="http://vodlozero.ru" target="_blank" rel="noopener">http://vodlozero.ru/</a>
                 </div>
                 <picture>
                     <source type="image/webp"
@@ -333,22 +333,44 @@
             </li>
         </ul>
     </section>
-    <section class="cover">
-        <a class="cover__link" href="#">
-            <div class="cover__background cover__overlay">
+    <section class="cover page__cover">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener">
+            <div class="cover__background cover__overlay hover-opacity">
                 <div class="container">
-                <div class="cover__inner">
-                    <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
-                        на
-                        электричках.
-                    </p>
+                    <div class="cover__inner">
+                        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до
+                            Байкала на электричках.
+                        </p>
+                    </div>
                 </div>
-            </div>
             </div>
         </a>
     </section>
 </main>
-
+<footer class="footer page__footer">
+    <div class="footer__inner container">
+        <nav>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="https://yandex.ru/maps" class="footer__link hover-opacity" target="_blank" rel="noopener">Карты</a>
+                </li>
+                <li class="footer__item">
+                    <a href="https://yandex.ru/maps" class="footer__link hover-opacity" target="_blank" rel="noopener">Погода</a>
+                </li>
+                <li class="footer__item">
+                    <a href="https://rasp.yandex.ru" class="footer__link hover-opacity" target="_blank" rel="noopener">Расписание</a>
+                </li>
+                <li class="footer__item">
+                    <a href="https://calendar.yandex.ru" class="footer__link hover-opacity" target="_blank" rel="noopener">Календарь</a>
+                </li>
+                <li class="footer__item">
+                    <a href="https://travel.yandex.ru" class="footer__link hover-opacity" target="_blank" rel="noopener">Путешествия</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="footer-copyright">© 2022. Альберт М.</p>
+    </div>
+</footer>
 </body>
 </html>

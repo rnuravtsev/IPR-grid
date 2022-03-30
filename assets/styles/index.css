@@ -1,9 +1,10 @@
 @import "normalize.css";
 @import "common/common.css";
+@import "blocks/hover-opacity/hover-opacity.css";
+@import "blocks/font/font.css";
 @import "blocks/container/container.css";
 @import "blocks/content/content.css";
 @import "blocks/content-holder/content-holder.css";
-@import "blocks/list/list.css";
 @import "blocks/image/image.css";
 @import "blocks/header/header.css";
 @import "blocks/intro/intro.css";

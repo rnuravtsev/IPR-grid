@@ -4,3 +4,7 @@
 @import "__inner/cover__inner.css";
 @import "__title/cover__title.css";
 @import "__subtitle/cover__subtitle.css";
+
+.cover {
+    width: 100%;
+}
