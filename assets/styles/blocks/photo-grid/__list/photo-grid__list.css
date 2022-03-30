@@ -3,6 +3,7 @@
     padding: 0;
     display: grid;
     grid-template-columns: 100%;
+    grid-auto-rows: minmax(auto, 218px);
     row-gap: 12px;
     list-style: none;
 }
@@ -10,6 +11,7 @@
 @media (min-width: 768px) {
     .photo-grid__list {
         grid-template-columns: repeat(2, auto);
+        grid-auto-rows: minmax(auto, 264px);
         gap: 16px;
     }
 }
@@ -17,6 +19,7 @@
 @media (min-width: 1024px) {
     .photo-grid__list {
         grid-template-columns: repeat(3, auto);
+        grid-auto-rows: minmax(auto, 225px);
         gap: 14px;
     }
 }
@@ -24,6 +27,7 @@
 @media (min-width: 1280px) {
     .photo-grid__list {
         grid-template-columns: repeat(4, auto);
+        grid-auto-rows: minmax(auto, 215px);
         gap: 16px;
     }
 }
