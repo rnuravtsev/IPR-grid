@@ -3,15 +3,14 @@
 @import "blocks/hover-opacity/hover-opacity.css";
 @import "blocks/font/font.css";
 @import "blocks/container/container.css";
+@import "blocks/page/page.css";
 @import "blocks/content/content.css";
-@import "blocks/content-holder/content-holder.css";
 @import "blocks/image/image.css";
 @import "blocks/header/header.css";
 @import "blocks/intro/intro.css";
 @import "blocks/lead/lead.css";
 @import "blocks/cover/cover.css";
 @import "blocks/footer/footer.css";
-@import "blocks/page/page.css";
 @import "blocks/photo-grid/photo-grid.css";
 @import "blocks/places/places.css";
 @import "blocks/place/place.css";
