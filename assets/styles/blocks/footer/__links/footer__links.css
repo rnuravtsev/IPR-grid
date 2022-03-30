@@ -1,4 +1,4 @@
-.footer__list {
+.footer__links {
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 768px) {
-    .footer__list {
+    .footer__links {
         flex-direction: row;
         column-gap: 18px;
     }
