@@ -1,5 +1,4 @@
 @import "__list/photo-grid__list.css";
-@import "__item/photo-grid__item.css";
 
 .photo-grid {
     padding-top: 64px;
