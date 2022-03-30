@@ -1,0 +1,41 @@
+.cover__background {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background-image: image-set(
+            url("../../../../images/cover-trains.webp") 1x,
+            url("../../../../images/cover-trains@2x.webp") 2x,
+            url("../../../../images/cover-trains@3x.webp") 3x,
+            url("../../../../images/cover-trains.jpg") 1x,
+            url("../../../../images/cover-trains@2x.jpg") 2x,
+            url("../../../../images/cover-trains@3x.jpg") 3x
+    );
+    background-image: -webkit-image-set(
+            url("../../../../images/cover-trains.webp") 1x,
+            url("../../../../images/cover-trains@2x.webp") 2x,
+            url("../../../../images/cover-trains@3x.webp") 3x,
+            url("../../../../images/cover-trains.jpg") 1x,
+            url("../../../../images/cover-trains@2x.jpg") 2x,
+            url("../../../../images/cover-trains@3x.jpg") 3x
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .cover__background {
+        padding: 115px 105px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover__background {
+        padding: 195px 232px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover__background {
+        padding: 245px 312px;
+    }
+}
