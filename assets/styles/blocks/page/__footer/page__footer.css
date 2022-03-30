@@ -1,5 +1,5 @@
 .page__footer {
-    max-width: 186px;
+    max-width: 60%;
 }
 
 @media (min-width: 768px) {
