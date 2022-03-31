@@ -1,0 +1,26 @@
+@import "__bg-image/lead__bg-image.css";
+@import "__title/lead__title.css";
+@import "__subtitle/lead__subtitle.css";
+@import "__caption/lead__caption.css";
+
+.lead {
+    padding-top: 48px;
+}
+
+@media (min-width: 768px) {
+    .lead {
+        padding-top: 52px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lead {
+        padding-top: 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .lead {
+        padding-top: 56px;
+    }
+}

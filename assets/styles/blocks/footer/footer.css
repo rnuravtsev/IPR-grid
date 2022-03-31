@@ -1,0 +1,22 @@
+@import "__flex-wrapper/footer__flex-wrapper.css";
+@import "__links/footer__links.css";
+@import "__link/footer__link.css";
+@import "__copyright/footer__copyright.css";
+
+.footer {
+    padding-top: 64px;
+    padding-bottom: 24px;
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        padding-top: 88px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        padding-top: 92px;
+    }
+}

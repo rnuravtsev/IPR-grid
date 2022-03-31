@@ -1,0 +1,13 @@
+@import "__list/places__list.css";
+
+.places {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+    .places {
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+}

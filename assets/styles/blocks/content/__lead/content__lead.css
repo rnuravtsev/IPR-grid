@@ -1,0 +1,12 @@
+@media (min-width: 1024px) {
+    .content__lead {
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .content__lead {
+        max-width: 984px;
+    }
+}
+

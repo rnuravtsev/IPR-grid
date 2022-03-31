@@ -1,0 +1,17 @@
+.content__intro {
+    justify-self: start;
+}
+
+@media (min-width: 1024px) {
+    .content__intro {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .content__intro {
+        max-width: 984px;
+    }
+}

@@ -1,0 +1,10 @@
+@import "__background/cover__background.css";
+@import "__overlay/cover__overlay.css";
+@import "__link/cover__link.css";
+@import "__inner/cover__inner.css";
+@import "__title/cover__title.css";
+@import "__subtitle/cover__subtitle.css";
+
+.cover {
+    width: 100%;
+}

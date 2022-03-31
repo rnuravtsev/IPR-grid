@@ -1,5 +1,18 @@
+@import "__logo/header__logo.css";
+@import "__lang-link/header__lang-link.css";
+@import "__lang-link/_active/header__lang-link_active.css";
+@import "__lang-menu/header__lang-menu.css";
+
+
 .header {
+    padding-top: 28px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (min-width: 768px) {
+    .header {
+        align-items: flex-end;
+    }
 }
