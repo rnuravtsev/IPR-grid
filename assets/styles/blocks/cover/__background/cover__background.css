@@ -2,20 +2,20 @@
     padding-top: 10%;
     padding-bottom: 10%;
     background-image: image-set(
-            url("../../../../images/cover-trains.webp") 1x,
-            url("../../../../images/cover-trains@2x.webp") 2x,
-            url("../../../../images/cover-trains@3x.webp") 3x,
-            url("../../../../images/cover-trains.jpg") 1x,
-            url("../../../../images/cover-trains@2x.jpg") 2x,
-            url("../../../../images/cover-trains@3x.jpg") 3x
+            url("../../../../images/cover-trains-tablet.webp") 1x,
+            url("../../../../images/cover-trains-tablet@2x.webp") 2x,
+            url("../../../../images/cover-trains-tablet@3x.webp") 3x,
+            url("../../../../images/cover-trains-tablet.jpg") 1x,
+            url("../../../../images/cover-trains-tablet@2x.jpg") 2x,
+            url("../../../../images/cover-trains-tablet@3x.jpg") 3x
     );
     background-image: -webkit-image-set(
-            url("../../../../images/cover-trains.webp") 1x,
-            url("../../../../images/cover-trains@2x.webp") 2x,
-            url("../../../../images/cover-trains@3x.webp") 3x,
-            url("../../../../images/cover-trains.jpg") 1x,
-            url("../../../../images/cover-trains@2x.jpg") 2x,
-            url("../../../../images/cover-trains@3x.jpg") 3x
+            url("../../../../images/cover-trains-tablet.webp") 1x,
+            url("../../../../images/cover-trains-tablet@2x.webp") 2x,
+            url("../../../../images/cover-trains-tablet@3x.webp") 3x,
+            url("../../../../images/cover-trains-tablet.jpg") 1x,
+            url("../../../../images/cover-trains-tablet@2x.jpg") 2x,
+            url("../../../../images/cover-trains-tablet@3x.jpg") 3x
     );
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,5 +33,21 @@
     .cover__background {
         padding-top: 20%;
         padding-bottom: 20%;
+        background-image: image-set(
+                url("../../../../images/cover-trains-laptop.webp") 1x,
+                url("../../../../images/cover-trains-laptop@2x.webp") 2x,
+                url("../../../../images/cover-trains-laptop@3x.webp") 3x,
+                url("../../../../images/cover-trains-laptop.jpg") 1x,
+                url("../../../../images/cover-trains-laptop@2x.jpg") 2x,
+                url("../../../../images/cover-trains-laptop@3x.jpg") 3x
+        );
+        background-image: -webkit-image-set(
+                url("../../../../images/cover-trains-laptop.webp") 1x,
+                url("../../../../images/cover-trains-laptop@2x.webp") 2x,
+                url("../../../../images/cover-trains-laptop@3x.webp") 3x,
+                url("../../../../images/cover-trains-laptop.jpg") 1x,
+                url("../../../../images/cover-trains-laptop@2x.jpg") 2x,
+                url("../../../../images/cover-trains-laptop@3x.jpg") 3x
+        );
     }
 }
